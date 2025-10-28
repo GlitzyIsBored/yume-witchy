@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<style>
+	body {
+		background-color: #080808;
+		color: white;
+	}
+	#skyBackround, #madosprite {
+		display:none;
+	}
+	#spriteCanvas {
+	  display: flex;
+	  align-items: centre;
+	  justify-content: centre;
+	}
+	</style>
+	
+    <h1>OMG</h1>
+	<img id ="madosprite" src="assets/madosprite.png"/>
+	<img id="skyBackround" src="assets/skybackground.png" alt="idk sky"/>
+	
+	 <canvas id="spriteCanvas" width="642" height="642" style="border:1px solid #000000;">s</canvas>
+	 
+	 <canvas id="madotsukiSprite"></canvas>
+
+	<audio player loop autoplay>
+	  <source src="assets/0000000281.WAV" type="audio/WAV">
+	</audio>	
+    <script src="mado.js"></script>
+</body>
+</html>
