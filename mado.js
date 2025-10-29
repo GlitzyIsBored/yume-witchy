@@ -23,7 +23,7 @@ const madoSprite = document.getElementById("madosprite");
 
 function animation() {
 	if ((fps % frameSpeed) == 0) {
-		//ctx.fillStyle = "red";
+		//ctx2.fillStyle = "red";
 		ctx2.clearRect(0,250, CANVAS_WIDTH, CANVAS_HEIGHT);
 		let frameX = spriteWidth * (spriteFrame % 4);
 		
